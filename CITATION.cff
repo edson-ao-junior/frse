@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "For publications or released artifacts, please cite the corresponding paper or DOI. For the FRSE documentation, cite this repository."
+authors:
+  - family-names: OliveiraJr
+    given-names: Edson
+title: "Forensic Readiness Software Engineering (FRSE): Research Program and Documentation"
+type: software
+url: "https://github.com/edson-ao-junior/frse"
+repository-code: "https://github.com/edson-ao-junior/frse"
+keywords:
+  - forensic readiness
+  - software engineering
+  - empirical software engineering
+  - open science

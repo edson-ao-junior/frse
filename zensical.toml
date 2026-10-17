@@ -1,0 +1,103 @@
+[project]
+site_name = "FRSE | Forensic Readiness Software Engineering"
+site_description = "Evidence-based research on forensic readiness across the software lifecycle."
+site_author = "Edson OliveiraJr"
+site_url = "https://edson-ao-junior.github.io/frse/"
+repo_url = "https://github.com/edson-ao-junior/frse"
+repo_name = "edson-ao-junior/frse"
+edit_uri = "edit/main/docs/"
+copyright = "FRSE Research Program · Research documentation and artifacts"
+extra_css = ["stylesheets/extra.css"]
+nav = [
+  { "Home" = "index.md" },
+  { "Research Program" = [
+    { "Overview" = "overview/index.md" },
+    { "Research Questions" = "overview/research-questions.md" },
+    { "Research Architecture" = "overview/architecture.md" }
+  ] },
+  { "Work Packages" = [
+    { "Work Packages Overview" = "work-packages/index.md" },
+    { "WP1 · Foundations" = "work-packages/wp1-foundations.md" },
+    { "WP2 · Empirical Characterization" = "work-packages/wp2-characterization.md" },
+    { "WP3 · Assessment & Prediction" = "work-packages/wp3-assessment.md" },
+    { "WP4 · Improvement & Validation" = "work-packages/wp4-improvement.md" }
+  ] },
+  { "Studies" = [
+    { "All Studies" = "studies/index.md" },
+    { "S01 · Multivocal Review & FREM" = "studies/s01-multivocal-review/index.md" },
+    { "S01-TAX · Taxonomy" = "studies/s01-taxonomy/index.md" },
+    { "S01-ONT · Ontology" = "studies/s01-ontology/index.md" },
+    { "S02 · Repository Mining" = "studies/s02-repository-mining/index.md" },
+    { "Future Directions" = "studies/future-studies.md" }
+  ] },
+  { "Roadmap" = [
+    { "Research Roadmap" = "roadmap/index.md" },
+    { "Current Status" = "progress/status.md" },
+    { "Research Updates" = "progress/updates.md" }
+  ] },
+  { "Outputs" = [
+    { "Research Outputs" = "research-outputs/index.md" },
+    { "FREM Model" = "research-outputs/frem.md" },
+    { "Datasets and Tools" = "research-outputs/datasets-tools.md" },
+    { "Publications" = "research-outputs/publications.md" }
+  ] },
+  { "Open Science" = [
+    { "Reproducibility" = "open-science/index.md" },
+    { "Data and Release Policy" = "open-science/data-management.md" }
+  ] },
+  { "About" = [
+    { "People and Institutions" = "about/team.md" },
+    { "Funding" = "about/funding.md" }
+  ] }
+]
+
+[project.theme]
+language = "en"
+logo = "assets/frse-mark.svg"
+favicon = "assets/frse-mark.svg"
+features = [
+  "navigation.tabs",
+  "navigation.tabs.sticky",
+  "navigation.sections",
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.tracking",
+  "navigation.top",
+  "navigation.footer",
+  "search.highlight",
+  "content.code.copy",
+  "content.action.edit",
+  "toc.follow"
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "blue grey"
+accent = "teal"
+toggle.icon = "material/weather-night"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "blue grey"
+accent = "teal"
+toggle.icon = "material/weather-sunny"
+toggle.name = "Switch to light mode"
+
+[project.markdown_extensions]
+attr_list = {}
+admonition = {}
+def_list = {}
+md_in_html = {}
+footnotes = {}
+
+[project.markdown_extensions.toc]
+permalink = true
+
+[project.markdown_extensions."pymdownx.details"]
+[project.markdown_extensions."pymdownx.superfences"]
+custom_fences = [{ name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }]
+[project.markdown_extensions."pymdownx.tabbed"]
+alternate_style = true

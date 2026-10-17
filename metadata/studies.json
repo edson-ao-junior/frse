@@ -1,0 +1,45 @@
+{
+  "as_of": "2026-10-17",
+  "studies": [
+    {
+      "id": "FRSE-S01",
+      "title": "Multivocal Review and FREM",
+      "wp": "WP1",
+      "research_status": "Synthesis completed",
+      "publication_status": "Manuscript in preparation",
+      "artifact_status": "Release pending",
+      "url": "s01-multivocal-review/",
+      "detail": "Systematic mapping (99 studies), grey-literature review (54 accepted sources), multivocal integration and conceptual model."
+    },
+    {
+      "id": "FRSE-S01-TAX",
+      "title": "FREM Taxonomy",
+      "wp": "WP1",
+      "research_status": "In progress",
+      "publication_status": "Manuscript in development",
+      "artifact_status": "Release pending",
+      "url": "s01-taxonomy/",
+      "detail": "Taxonomy construction and planned independent evaluation."
+    },
+    {
+      "id": "FRSE-S01-ONT",
+      "title": "Forensic Readiness Ontology",
+      "wp": "WP1",
+      "research_status": "Planned",
+      "publication_status": "Not started",
+      "artifact_status": "Not available",
+      "url": "s01-ontology/",
+      "detail": "Planned formal representation extending the model and taxonomy."
+    },
+    {
+      "id": "FRSE-S02",
+      "title": "Repository Mining for Forensic Readiness",
+      "wp": "WP2",
+      "research_status": "Preparation",
+      "publication_status": "Not started",
+      "artifact_status": "Not available",
+      "url": "s02-repository-mining/",
+      "detail": "Methodological preparation for studying forensic-readiness-related software changes."
+    }
+  ]
+}

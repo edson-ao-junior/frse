@@ -1,0 +1,45 @@
+{
+  "as_of": "2026-10-17",
+  "publications": [
+    {
+      "id": "P01",
+      "title": "Evidence-Based FREM Conceptual Model",
+      "type": "Journal manuscript (working title)",
+      "study": "FRSE-S01",
+      "status": "In preparation",
+      "venue": "To be confirmed",
+      "doi": null,
+      "url": null
+    },
+    {
+      "id": "P02",
+      "title": "FREM Taxonomy",
+      "type": "Journal manuscript (working title)",
+      "study": "FRSE-S01-TAX",
+      "status": "In development",
+      "venue": "To be confirmed",
+      "doi": null,
+      "url": null
+    },
+    {
+      "id": "P03",
+      "title": "Forensic Readiness Ontology",
+      "type": "Prospective manuscript",
+      "study": "FRSE-S01-ONT",
+      "status": "Planned",
+      "venue": "Not selected",
+      "doi": null,
+      "url": null
+    },
+    {
+      "id": "P04",
+      "title": "Mining Software Changes for Forensic Readiness",
+      "type": "Prospective manuscript",
+      "study": "FRSE-S02",
+      "status": "Study preparation",
+      "venue": "Not selected",
+      "doi": null,
+      "url": null
+    }
+  ]
+}
