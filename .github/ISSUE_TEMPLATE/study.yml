@@ -1,0 +1,26 @@
+name: Research study
+description: Organize a study protocol, method, analysis and release
+labels: ["research", "study"]
+body:
+  - type: input
+    id: study
+    attributes:
+      label: Study identifier
+      placeholder: FRSE-S02
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective and research questions
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Planned activities and milestones
+      placeholder: "- [ ] Protocol\n- [ ] Data collection\n- [ ] Analysis\n- [ ] Evaluation\n- [ ] Artifacts release"
+  - type: textarea
+    id: outputs
+    attributes:
+      label: Expected outputs and replication artifacts

@@ -1,0 +1,31 @@
+name: Research deliverable
+description: Track evidence, models, data, tools, or publications
+labels: ["deliverable"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Deliverable title
+    validations:
+      required: true
+  - type: input
+    id: study
+    attributes:
+      label: Related study / work package
+      placeholder: WP1 / FRSE-S01
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Deliverable type
+      options:
+        - Model
+        - Protocol
+        - Dataset
+        - Software/Tool
+        - Taxonomy/Ontology
+        - Scientific publication
+        - Other
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Completion and release criteria
