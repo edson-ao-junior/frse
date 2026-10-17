@@ -6,8 +6,50 @@
   --frse-paper: #f3f8fa;
   --frse-ink: #203749;
 }
-.md-header { background: #142e45; }
-.md-tabs { background: #193b53; }
+/* High-contrast site header and primary navigation. */
+.md-header {
+  background: #142e45 !important;
+  color: #ffffff !important;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: rgba(255, 255, 255, .86);
+}
+.md-header .md-header__title,
+.md-header .md-header__topic,
+.md-header .md-header__button,
+.md-header .md-header__source,
+.md-header .md-source,
+.md-header .md-source__repository,
+.md-header a {
+  color: #ffffff !important;
+}
+.md-header .md-header__button svg,
+.md-header .md-icon svg {
+  fill: currentColor;
+}
+.md-tabs {
+  background: #193b53 !important;
+  color: #ffffff !important;
+}
+.md-tabs .md-tabs__link {
+  color: #ffffff !important;
+  opacity: .86;
+}
+.md-tabs .md-tabs__link--active,
+.md-tabs .md-tabs__link:hover {
+  opacity: 1;
+}
+/* Keep the homepage hero legible in light and dark appearance. */
+.frse-hero h1,
+.frse-hero .frse-lead {
+  color: #ffffff !important;
+}
+.frse-hero .frse-eyebrow {
+  color: #baf8e6 !important;
+}
+.frse-hero .frse-actions a:not(.frse-primary) {
+  color: #ffffff !important;
+}
+
 .frse-hero {
   position: relative; overflow: hidden;
   padding: 3.1rem 2.6rem; margin: .8rem 0 1.8rem;
